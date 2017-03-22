@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WASD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!--font awesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!--my style sheet-->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <!--Browser icon-->
+    <link rel="shortcut icon" href="assets/favicon-keyboard-o.ico"/>
+    <!--Montserat font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body id="page-news">
+    <!-- navigation -->
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+         <a href="index.html" class="navbar-brand">WASD</a>
+<!-- collapse menu trigger-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <spam class="icon-bar"></spam>
+            <spam class="icon-bar"></spam>
+            <spam class="icon-bar"></spam>
+        </button>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="components.html">Components</a></li>
+            <li><a href="peripherals.html">Peripherals</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li class="active"><a href="about.html">About Us</a></li>
+            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+</div>
+    
+<!--Breadcrumb-->
+    <ol class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li class="active">About us</li>
+    </ol>
+    
+<!--About us-->
+    <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+    <img src="assets/stock-items.jpeg" class="img-responsive img-rounded center-block" width="690" height="920">
+    <div class="filler">
+    <p class="text-center font-family"> We are the leading Internet media company focused on the video game and entertainment enthusiast markets. WASD caters to more than 68 million monthly users on our website and in our apps. Our English-language programming is followed by over 9 million subscribers on YouTube and 16 million fans on social networks. Our Snapchat edition reaches millions more each month. For millions of fans, we have cemented our reputation as the authoritative voice on games and entertainment by delivering sharp opinions and ground-breaking visual content. For you, we offer the creativity, authenticity and relevance to help you engage our vital, premium audience.</p>
+    <h3 class="text-center">As A Team We</h3>
+            <img src="assets/news.jpg" class="img-responsive img-circle center-block" width="460" height="345">
+        <p class="text-center">Offer the best information as soon as possible.</p>
+            <img src="assets/collab.jpg" class="img-responsive img-circle center-block" width="460" height="345">
+        <p class="text-center">We work in collaborative teams.</p>
+            <img src="assets/study.jpg" class="img-responsive img-circle center-block" width="460" height="345">
+        <p class="text-center">We give back to our communities.</p>
+            <img src="assets/conf.jpg" class="img-responsive img-circle center-block" width="460" height="345">
+        <p class="text-center">We kick back with our teams at lots of events.</p>
+            <img src="assets/dev.jpg" class="img-responsive img-circle center-block" width="460" height="345">
+        <p class="text-center">We invest in our team and future developers.</p>
+        </div>
+        </div>
+    </div>
+        
+<!--Footer-->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text">Website Created By <button type="button" class="btn btn-link"><a href="https://uk.linkedin.com/in/jordan-bryan-68b092109" target="_blank">Jordan Bryan</a></button></p>
+            <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-info pull-right">Contact Us</a>
+        </div>
+    </div>
+    
+<!--Modal-->
+    <form class="form-horizontal">
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+<!--Modal form start-->
+                <div class="modal-header"> <!--HEADER-->
+                    <h3>Contact Us</h3>
+                </div>
+                
+                <div class="modal-body"> <!--BODY-->
+                    <div class="form-group"> <!--NAME-->
+                        
+                        <label for="contact-name" class="col-md-4 control-label">CompanyName</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>WASD</li></ul>
+                        </div>
+                    </div>
+                    <div class="form-group"> <!--MESSAGE-->
+                        <label for="contact-msg" class="col-md-4 control-label">Opening Times</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>Monday-Friday</li></ul>
+                            <ul class="list-unstyled"><li>9AM - 8PM</li></ul>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group"> <!--EMAIL-->
+                        <label for="contact-email" class="col-md-4 control-label">Email</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>wasd@example.co.uk</li></ul>
+                            <ul class="list-unstyled"><li>admin@example.co.uk</li></ul>
+                        </div>
+                    </div>
+                    <div class="form-group"> <!--NUMBER-->
+                        <label for="contact-msg" class="col-md-4 control-label">Telephone Number</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>01543 462200</li></ul>
+                        </div>
+                    </div>
+                    <div class="form-group"> <!--NUMBER-->
+                        <label for="contact-msg" class="col-md-4 control-label">Location</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>The Green</li></ul>
+                            <ul class="list-unstyled"><li>Cannock, Staffordshire</li></ul>
+                            <ul class="list-unstyled"><li>WS11 1UE</li></ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer"> <!--FOOTER-->
+                    <a class="btn btn-default" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<!--Modal form end-->               
+            
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

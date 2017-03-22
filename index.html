@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WASD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!--font awesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!--my style sheet-->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <!--Browser icon-->
+    <link rel="shortcut icon" href="assets/favicon-keyboard-o.ico"/>
+    <!--Montserat font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+    <video autoplay loop muted poster="screenshot.jpg" id="background">
+    <source src="assets/desktop%20video.mp4" type="video/mp4">
+</video>
+    <img id="mobile" src="assets/desktop-win.jpeg">
+    <!-- navigation -->
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+        <a href="index.html" class="navbar-brand" ><i class="fa fa-keyboard-o" aria-hidden="true"></i>WASD</a>
+<!-- collapse menu trigger-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <spam class="icon-bar"></spam>
+            <spam class="icon-bar"></spam>
+            <spam class="icon-bar"></spam>
+        </button>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="components.html">Components</a></li>
+            <li><a href="peripherals.html">Peripherals</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+</div>
+    <!--jumbotron-->
+<div class="bg"></div>
+<div class="jumbotron container text-center">
+  <h1>WASD</h1>
+  <p class="lead">The home of all your computing and gaming needs</p>
+</div>
+    
+<!--Grid System-->
+    <div class="container">
+        <div class="row">
+             <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/motherboard2.jpg" alt="Article 1">
+                        <div class="caption">
+                            <h3>Components</h3>
+                            <p>These are internal components of the computer and information about them</p>
+                            <p>
+                                <a href="components.html" class="btn btn-success" role="button">Components</a>
+                            </p>
+                        </div>
+                 </div>
+             </div>
+<!--article 2-->
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/rkey.jpeg" alt="Article 2">
+                        <div class="caption">
+                            <h3>Peripherals</h3>
+                            <p>These are external components of the computer and information about them</p>
+                            <p>
+                                <a href="peripherals.html" class="btn btn-success" role="button">Peripherals</a>
+                            </p>
+                        </div>
+                 </div>
+             </div>
+            
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/gkey.jpeg" alt="Article 3">
+                        <div class="caption">
+                            <h3>Games</h3>
+                            <p>Our top 5 recommendations for gaming and information about them</p>
+                            <p>
+                                <a href="games.html" class="btn btn-success" role="button">Games</a>
+                            </p>
+                        </div>
+                 </div>
+             </div>
+            
+        </div>
+    </div>
+    
+
+    <!--Grid System-->
+    <div class="container">
+        <div class="row">
+             <div class="col-md-4 col-md-offset-2">
+                <div class="thumbnail">
+                    <img src="assets/about.jpeg" alt="Article 4">
+                        <div class="caption">
+                            <h3>About Us</h3>
+                            <p>What we do as a company</p>
+                            <p>
+                                <a href="about.html" class="btn btn-success" role="button">About us</a>
+                            </p>
+                        </div>
+                 </div>
+             </div>
+<!--article 2-->
+            <div class="col-md-4 col-md-offset-">
+                <div class="thumbnail">
+                    <img src="assets/twitter.jpeg" alt="Article 5">
+                        <div class="caption">
+                            <h3>Twitter</h3>
+                            <p>Follow us on Twitter for more information</p>
+                            <p>
+                                <a href="https://www.twitter.com/JordanBryan93" target="_blank" class="btn btn-success" role="button">Follow Us</a>
+                            </p>
+                        </div>
+                 </div>
+             </div> 
+        </div>
+    </div>
+<!--Footer-->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container creation">
+            <p class="navbar-text">Website Created By <button type="button" class="btn btn-link"><a href="https://uk.linkedin.com/in/jordan-bryan-68b092109" target="_blank">Jordan Bryan</a></button></p>
+            <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-info pull-right">Contact Us</a>
+        </div>
+    </div>
+    
+<!--Modal-->
+    <form class="form-horizontal">
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+<!--Modal form start-->
+                <div class="modal-header"> <!--HEADER-->
+                    <h3>Contact Us</h3>
+                </div>
+                
+                <div class="modal-body"> <!--BODY-->
+                    <div class="form-group"> <!--NAME-->
+                        
+                        <label for="contact-name" class="col-md-4 control-label">CompanyName</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>WASD</li></ul>
+                        </div>
+                    </div>
+                    <div class="form-group"> <!--MESSAGE-->
+                        <label for="contact-msg" class="col-md-4 control-label">Opening Times</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>Monday-Friday</li></ul>
+                            <ul class="list-unstyled"><li>9AM - 8PM</li></ul>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group"> <!--EMAIL-->
+                        <label for="contact-email" class="col-md-4 control-label">Email</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>wasd@example.co.uk</li></ul>
+                            <ul class="list-unstyled"><li>admin@example.co.uk</li></ul>
+                        </div>
+                    </div>
+                    <div class="form-group"> <!--NUMBER-->
+                        <label for="contact-msg" class="col-md-4 control-label">Telephone Number</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>01543 462200</li></ul>
+                        </div>
+                    </div>
+                    <div class="form-group"> <!--NUMBER-->
+                        <label for="contact-msg" class="col-md-4 control-label">Location</label>
+                        <div class="col-md-8">
+                            <ul class="list-unstyled"><li>The Green</li></ul>
+                            <ul class="list-unstyled"><li>Cannock, Staffordshire</li></ul>
+                            <ul class="list-unstyled"><li>WS11 1UE</li></ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer"> <!--FOOTER-->
+                    <a class="btn btn-default" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<!--Modal form end-->        
+            
+
+        
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
